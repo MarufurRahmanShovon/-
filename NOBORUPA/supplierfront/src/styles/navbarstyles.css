@@ -1,0 +1,60 @@
+.navbar {
+    height: 50px;
+    width: 100vw;
+    background-color: #FF5733;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+
+.navbar > .wrapperLeft{
+    flex: 0.75;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.navbar > .wrapperLeft > .logo{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+.navbar > .wrapperRight{
+    flex: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 25px;
+}
+
+.navbar > .wrapperRight > .menuText{
+    font-size: 18px;
+    margin: 15px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar > .wrapperRight > .userName{
+    font-size: 18px;
+    margin: 15px;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar > .wrapperRight > .menuIcon{
+    margin: 15px;
+    font-size: 24px;
+    /* color: white; */
+    font-weight: bold;
+    cursor: pointer;
+}
+
